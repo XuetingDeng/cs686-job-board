@@ -13,7 +13,7 @@ function App() {
         return response.json();
       })
       .then(data => {
-        // console.log('Data received:', data);
+        //debug: console.log('Data received:', data);
         setJobs(data);
       })
       .catch(error => console.error('Error fetching jobs:', error));
