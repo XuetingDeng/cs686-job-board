@@ -13,4 +13,4 @@ CREATE TABLE jobs (
 -- insert test data
 INSERT INTO jobs (title, company, link, post_date) VALUES
 ('Software Development Intern', 'Xerox', 'https://xerox.avature.net/en_US/careers/JobDetail/Software-Development-Intern/45959', '2025-02-25'),
-('Software Engineer - Intern', 'KLA Corporation', 'https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Milpitas-CA/Software-Engineer---Intern_2527845-1?Country=bc33aa3152ec42d4995f4791a106ed09', '2025-02-24');
+('Software Engineer - Intern', 'KLA Corporation', 'https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Milpitas-CA/Software-Engineer---Intern_2527845-1?Country=bc33aa3152ec42d4995f4791a106ed09', '2025-02-23');
