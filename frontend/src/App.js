@@ -3,11 +3,12 @@ import './App.css';
 
 function App() {
   const [jobs, setJobs] = useState([]);
-  const API_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5001';
+  // const API_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5001';
 
   useEffect(() => {
     // fetch('http://localhost:5001/jobs')
-    fetch(`${API_URL}/jobs`)
+    fetch('http://18.207.151.248:5001/jobs')
+    // fetch(`${API_URL}/jobs`)
       .then(response => {
         if (!response.ok) {
             throw new Error('Network response was not ok');
