@@ -6,8 +6,8 @@ function App() {
   // const API_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5001';
 
   useEffect(() => {
-    // fetch('http://localhost:5001/jobs')
-    fetch('http://18.207.151.248:5001/jobs')
+    fetch('http://localhost:5001/jobs')
+    // fetch('http://18.207.151.248:5001/jobs')
     // fetch(`${API_URL}/jobs`)
       .then(response => {
         if (!response.ok) {

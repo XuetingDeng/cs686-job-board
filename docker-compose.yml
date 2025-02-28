@@ -53,8 +53,14 @@ services:
       - "3000:3000"
     environment:
       - REACT_APP_BACKEND_URL=http://backend:5001
-    stdin_open: true
-    tty: true
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 512M
+    # stdin_open: true
+    # tty: true
+
     # test: connect with rds
     # build: ./frontend
     # ports:
